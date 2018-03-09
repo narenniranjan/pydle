@@ -14,7 +14,7 @@ import tornado.ioloop
 FUTURE_TIMEOUT = 30
 
 
-class Future(tornado.concurrent.TracebackFuture):
+class Future(tornado.concurrent.Future):
     """
     A future. An object that represents a result that has yet to be created or returned.
     """
